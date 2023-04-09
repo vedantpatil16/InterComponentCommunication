@@ -1,0 +1,5 @@
+<div style="text-align: center">
+  <h1>Inter Component Communication</h1>
+  <app-demo [MessageFromParent]="Message" (Myevent) = "MessageFromChild=$event"></app-demo>
+  <h1>{{MessageFromChild}}</h1>
+</div>
